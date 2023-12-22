@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+header, footer {
+    text-align: center;
+}
+
+div {
+    border: solid black 1px;
+    width: 175px;
+    height: 150px;
+    text-align: center;
+}
+
+div.day-title {
+    height: 50px;
+}
+
+section.columns {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+}
+
+section.weekday {
+    display: flex;
+    flex-direction: column;
+}
